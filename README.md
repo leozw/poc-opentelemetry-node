@@ -24,7 +24,7 @@ prometheusremotewrite:
 
 ```
 
-🚀 **Atenção**: Converta suas credenciais do Grafana para Base64 e use no lugar de **`CONVERTED_TO_BASE64`**. Para o `**prometheusremotewrite`**, não precisa da conversão.
+🚀 **Atenção**: Converta suas credenciais do Grafana para Base64 e use no lugar de **`CONVERTED_TO_BASE64`**. Para o **`prometheusremotewrite`**, não precisa da conversão.
 
 ### **2. Preparação do Dockerfile:**
 
