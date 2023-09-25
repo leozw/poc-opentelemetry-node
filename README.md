@@ -57,3 +57,37 @@ docker-compose down
 ---
 
 Com isso, sua aplicação Node.js estará rodando junto com o OpenTelemetry Collector no Docker, e estará enviando dados de telemetria para o Grafana. Se encontrar qualquer problema ou tiver alguma sugestão, não hesite em contribuir! 🚀
+
+---
+
+# **📈 Visualizando Métricas no Grafana**
+
+Depois de rodar sua aplicação e o OpenTelemetry Collector, os dados coletados são enviados ao Grafana. Agora, é hora de visualizá-los!
+
+## **Passos para Visualização:**
+
+### **1. Acesse o Grafana:**
+
+- Acesse sua instância Grafana via navegador usando o link fornecido ao registrar-se ou o que você configurou.
+
+### **2. Adicione sua fonte de dados:**
+
+- No menu lateral do Grafana, clique em **`⚙️ Configuration`** e selecione **`Data Sources`**.
+- Clique em **`Add data source`** e selecione tanto **`Prometheus`** quanto **`Tempo`** (se você estiver usando o Grafana Tempo para rastreamentos).
+- Configure cada fonte de dados com os endpoints e credenciais adequados.
+
+### **3. Explore suas métricas e rastreamentos:**
+
+- No menu lateral, clique em **`🔍 Explore`**.
+- Selecione a fonte de dados (Prometheus/Tempo) que você deseja consultar.
+- Comece a visualizar suas métricas e rastreamentos. Você pode usar as consultas integradas ou escrever suas próprias consultas para visualizar informações específicas.
+
+### **4. Crie Dashboards Personalizados:**
+
+- Grafana oferece a capacidade de criar painéis personalizados para visualizar seus dados de maneira mais estruturada.
+- No menu lateral, clique em **`+`** e selecione **`Dashboard`**.
+- Comece a adicionar gráficos e outros elementos visuais ao seu painel para ter uma visão clara dos seus dados de telemetria.
+
+---
+
+Espero que isso ajude a tornar seu guia ainda mais completo! Isso dará a quem lê uma boa ideia de todo o fluxo, desde a coleta de dados até a visualização no Grafana. 📊🚀
