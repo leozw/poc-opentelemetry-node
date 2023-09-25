@@ -16,11 +16,11 @@ Este guia explica como rodar sua aplicação Node.js junto com o OpenTelemetry C
 
 ```yaml
 otlp:
-  endpoint: https://YOUR_GRAFANA_INSTANCE_ENDPOINT
+  endpoint: https://YOUR_GRAFANA_TEMPO_ENDPOINT
   headers:
     Authorization: Basic CONVERTED_TO_BASE64 (INSTANCEID:APIKEY) 
 prometheusremotewrite:
-  endpoint: https://INSTANCEID:APIKEY@prometheus-prod-25-prod-sa-east-0.grafana.net/api/prom/push
+  endpoint: https://INSTANCEID:APIKEY@YOUR_GRAFANA_PROMETHEUSREMOTEWRITE_ENDPOINT
 
 ```
 
