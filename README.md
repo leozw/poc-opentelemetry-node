@@ -46,7 +46,7 @@ docker-compose up
 
 ```
 
-- Agora, acesse sua aplicação no navegador através da URL: **`http://localhost:9191`**.
+- Agora, acesse sua aplicação no navegador através da URL: **`http://localhost:9191/db`** e **`http://localhost:9191/rolldice`**.
 - Depois de testar, pare os serviços:
 
 ```bash
